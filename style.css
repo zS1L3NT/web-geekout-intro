@@ -58,10 +58,6 @@ body {
 /* #endregion */
 
 /* #region About */
-.about-me {
-	height: 80%;
-}
-
 .about-me > h1 {
 	display: block;
 	margin: 3rem auto 1rem auto;
@@ -71,7 +67,6 @@ body {
 
 .about-me > .cards {
 	display: grid;
-	height: 600px;
 	grid-gap: 2rem;
 	padding: 2rem;
 	grid-template-rows: 1fr 1fr;
@@ -155,7 +150,7 @@ body {
 
 /* #region Footer */
 footer {
-	padding: 4rem 0 2rem 0;
+	padding: 1rem 0 2rem 0;
 }
 
 footer img {
